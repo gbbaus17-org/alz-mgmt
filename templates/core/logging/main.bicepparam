@@ -3,7 +3,6 @@ using 'main.bicep'
 // General Parameters
 param parLocations = [
   'australiaeast'
-  ''
 ]
 param parGlobalResourceLock = {
   name: 'GlobalResourceLock'
@@ -44,3 +43,4 @@ param parUserAssignedIdentityName = 'mi-alz-${parLocations[0]}'
 param parDataCollectionRuleVMInsightsName = 'dcr-vmi-alz-${parLocations[0]}'
 param parDataCollectionRuleChangeTrackingName = 'dcr-ct-alz-${parLocations[0]}'
 param parDataCollectionRuleMDFCSQLName = 'dcr-mdfcsql-alz-${parLocations[0]}'
+
